@@ -35,7 +35,7 @@ LEFT JOIN company_dim ON job_postings_fact.company_id=company_dim.company_id
 WHERE 
     job_work_from_home IS true AND 
     job_title_short = 'Data Analyst' AND
-    job_title like '%junior%'
+    job_title like '%junior%',
 ORDER BY 
     salary_year_avg desc
 LIMIT 10
