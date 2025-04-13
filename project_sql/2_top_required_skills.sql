@@ -39,7 +39,7 @@ These results suggest a strong demand for data-related skills, particularly SQL,
 */
 
 
---junior data analyst--
+--Junior data analyst--
 WITH junior_data_analyst AS (SELECT
     job_id,
     job_title,
@@ -50,7 +50,6 @@ FROM
     job_postings_fact
 LEFT JOIN company_dim ON job_postings_fact.company_id=company_dim.company_id
 WHERE 
-    job_work_from_home IS true AND 
     job_title_short = 'Data Analyst' AND
     job_title like '%junior%' AND
     (job_country = 'Italy' OR job_country = 'Slovenia')

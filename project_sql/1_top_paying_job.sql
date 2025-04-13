@@ -1,6 +1,6 @@
 /*
 What are the top paying jobs for my role?
--top 10 data scientist jobs
+-top 10 data analyst jobs
 -work from home / available remotely
 -focus on job postings with specified salaries
 */
